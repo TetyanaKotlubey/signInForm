@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in form</title>
+    <link rel="shortcut icon" href="beetroot.png" type="image/png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="modal">
+        <div class="modal__content">
+            <input type="radio" name="tab" id="sign-in" checked>
+            <label for="sign-in">Sign in</label>
+
+            <input type="radio" name="tab" id="join-us">
+            <label for="join-us">Join us</label>
+            <div class="tabs">
+                <form action="" name="Sign-in" class="form" method="POST" autocomplete="off">
+                    <div class="form__group">
+                        <label class="form__label" for="username">Username</label>
+                        <input class="form__input" type="text" name="username" id="userame" required>
+                    </div>
+                    <div class="form__group">
+                        <label class="form__label" for="password">Password</label>
+                        <input class="form__input" type="text" name="password" id="password" required>
+                    </div>
+                    <div class="form__group">
+                        <input class="form__checkbox" type="checkbox" name="remember" id="remember" checked>
+                        <label class="form__label form__label--checkbox" for="remember">
+                        Keep me signing in
+                        </label>
+                    </div>
+                    <div class="form__btns">
+                        <button type="submit" class="form__btn">Sign in</button>
+                    </div>
+                    <div class="modal__links">
+                        <a href="#" class="modal__link">Forgot password</a>
+                        <a href="#" class="modal__link">Create an account</a>
+                    </div>
+                </form>
+                <form action="" name="Join-Us" class="form" method="POST" autocomplete="off">
+                    <div class="form__group">
+                        <label class="form__label" for="username">Username</label>
+                        <input class="form__input" type="text" name="username" id="userame" required>
+                    </div>
+                    <div class="form__group">
+                        <label class="form__label" for="password">Password</label>
+                        <input class="form__input" type="text" name="password" id="password" required>
+                    </div>
+                    <div class="form__group">
+                        <input class="form__checkbox" type="checkbox" name="remember" id="remember" checked>
+                        <label class="form__label form__label--checkbox" for="remember">
+                        Keep me signing in
+                        </label>
+                    </div>
+                    <div class="form__btns">
+                        <button type="submit" class="form__btn">Sign in</button>
+                    </div>
+                    <div class="modal__links">
+                        <a href="#" class="modal__link">Forgot password</a>
+                        <a href="#" class="modal__link">Create an account</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
